@@ -215,7 +215,17 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+  /* Change the postition of the header to static so it will not squish together and take up more room on smaller screens */
 
+  /* Apply 3 media queries */
+
+  /* Each MQ should be one of the following pixel widths 980px, 768px, 640px */
+
+  /* Once applied with the "min-width" tag, specify which element is being altered with its class/ID */
+
+  /* First containing the size of the img on the "About" page, keeping its witch 100% but its min width to a certain pixel limit */
+
+   /* */ 
 @media (min-width: 640px) {
   .auth-image {
    width: 100%;
